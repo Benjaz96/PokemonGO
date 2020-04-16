@@ -1,0 +1,2388 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns/website#">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Horarios para la hora del Pokémon descatado (Pidgey), diseñada y realizada por el grupo Comunidad Fly Oficial.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Comunidad Fly Oficial">
+    <meta property="og:image" content="https://i.ibb.co/9rKXw1V/pokemon-bonus-sopresa-vista.jpg">
+    <meta property="og:title" content="Hora del Pokémon descatado (Pidgey) - Comunidad Fly Oficial">
+    <meta property="og:description" content="Durante el mes de abril, la hora del Pokémon destacado tendrá lugar cada martes a las 18:00 (hora local), pero esta vez, ¡contará con un Pokémon y un bonus especial! En cada hora del Pokémon destacado disfrutaréis de un Pokémon y un bonus diferente.">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="@DjkireYoutube">
+    <meta property="twitter:image" content="https://i.ibb.co/9rKXw1V/pokemon-bonus-sopresa-vista.jpg">
+    <meta property="twitter:title" content="Hora del Pokémon descatado (Pidgey) - Comunidad Fly Oficial">
+    <meta property="twitter:description" content="Durante el mes de abril, la hora del Pokémon destacado tendrá lugar cada martes a las 18:00 (hora local), pero esta vez, ¡contará con un Pokémon y un bonus especial! En cada hora del Pokémon destacado disfrutaréis de un Pokémon y un bonus diferente.">
+    <title>Hora del Pokémon descatado (Pidgey)</title>
+    <link rel="icon" href="imagen/logo_comunidad_fly.png">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/misterypokemonstyle.css">
+</head>
+<body id="body">
+    <div class="loader" id="onload">
+        <img src="imagen/pikachu_loader.gif" alt="">
+        <img src="imagen/loader.gif" alt="">
+    </div>
+    <div class="overlay">
+        <main role="main" class="main">
+            <nav class="menu">
+                <img class="menu_img" src="imagen/logo_comunidad.png" alt="Logo Comunidad Fly">
+                <div class="menu_nav">
+                    <a class="menu_link" href="index.html"><img src="imagen/home.svg" alt="home"><span>INICIO</span></a>
+                    <a class="menu_link" href="farmplace.html"><img src="imagen/compass.svg" alt="Global"><span>LUGARES DE FARMEO</span></a>
+                    <a class="menu_link" href="communityday.html"><img src="imagen/confetti.svg" alt="Confetti"><span>COMMUNITY DAY</span></a>
+                    <a class="menu_link" href="raidhour.html"><img src="imagen/clock.svg" alt="Calendar"><span>HORA LEGENDARIA</span></a>
+                    <a class="menu_link" id="click_submenu"><img src="imagen/more.svg" id="icon_event" alt="icon"><span>EVENTOS</span></a>
+                </div>
+                <div class="menu_submenu" id="submenu">
+                    <div>
+                        <h2 class="menu_submenu_title"><img src="imagen/Logo_PokemonGO.png" alt="Logo pokemon GO">EVENTOS DE ABRIL</h2>
+                        <a class="menu_submenu_link" href="primavera.html"><img src="imagen/calendar.svg" alt="Calendar"><span>EVENTO PRIMAVERAL</span></a>  
+                        <a class="menu_submenu_link" href="dayincense.html"><img src="imagen/calendar.svg" alt="Calendar"><span>DIA DEL INCIENSO</span></a>
+                        <a class="menu_submenu_link" href="pokemonwobbuffet.html"><img src="imagen/calendar.svg" alt="Calendar"><span>POKÉMON DESTACADO (WOBBUFFET)</span></a>
+                        <a class="menu_submenu_link" href="pokemonpidgey.html"><img src="imagen/calendar.svg" alt="Calendar"><span>POKÉMON DESTACADO (PIDGEY)</span></a>     
+                    </div>
+                </div>
+            </nav>
+            <div class="picture">
+                <picture>
+                    <img src="imagen/pokemon_destacado_pidgey.jpg" style="display:block;width:100%;">
+                </picture>
+                <p class="picture_info"><span>HORA LOCAL</span><span>18:00 - 19:00</span></p>
+                <p class="picture_info"><span>BONUS</span><span>X2 DE EXPERIENCIA POR EVOLUCION</span></p>
+                <p class="picture_info">28 DE ABR. DEL 2020</p>
+            </div>
+            <div class="community">
+                <div class="community_piplup_family">
+                    <h2 class="community_piplup_title"><span>FAMILIA PIDGEY</span></h2>
+                    <img class="community_piplup_sprite" src="imagen/sprite_pidgey.png" alt="Familia Wobbuffet">
+                </div>
+                <div class="community_local">
+                    <h2 class="community_local_title"><span>POKEMON DESTACADO</span></h2>
+                    <p>Hora actual de tu ciudad:</p>
+                    <p id="community_day">Obteniendo datos...</p>
+                    <p id="community_hour">Obteniendo datos...</p>
+                    <p>*La hora local se deriva de la hora de su smartphone/ PC / laptop.</p>
+                </div>
+            </div>
+            <div class="block"  id="country_id">
+                <h1 class="main_title">HORARIOS PARA LA HORA DEL POKEMON DESTACADO (PIDGEY)</h1>
+                <div class="block_overlay">
+                    <div class="block_back">
+                        <h2 class="block_title">1. LUGAR (UTC +14) 
+                            <img class="bandera" src="imagen/kiribati.jpg" alt="Kiribati"></h2>
+                        <div class="block_info">
+                            <div>
+                                <p class="block_time_title">Hora local de este lugar:<button class="button_view" data-index="0">Ver CC</button></p>
+                                <p class="block_time_local" id="time_local_1">Obteniendo datos...</p>
+                                <p class="block_time_title">Hora de inicio en tu ciudad:</p>
+                                <p class="block_time_local" id="time_local_our_1">Obteniendo datos...</p>
+                            </div>
+                            <p class="block_time" id="time_1">Obteniendo datos...</p>
+                        </div>
+                    </div>
+                    <div class="block_country">
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/kiribati.jpg" alt="">
+                                        <p>KIRIBATI</p>
+                                    </div>
+                                    <p>London, Kiribati</p>
+                                    <p class="rating">Sola hay 4 Pokeparadas</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p class="coordes">1.987150,-157.477140</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block_overlay">
+                    <div class="block_back">
+                        <h2 class="block_title">2. LUGAR (UTC +12) 
+                            <img class="bandera" src="imagen/nueva-zelanda.jpg" alt="Nueva Zelanda"></h2>
+                        <div class="block_info">
+                            <div>
+                                <p class="block_time_title">Hora local de este lugar:<button class="button_view" data-index="1">Ver CC</button></p>
+                                <p class="block_time_local" id="time_local_2">Obteniendo datos...</p>
+                                <p class="block_time_title">Hora de inicio en tu ciudad:</p>
+                                <p class="block_time_local" id="time_local_our_2">Obteniendo datos...</p>
+                            </div>
+                            <p class="block_time" id="time_2">Obteniendo datos...</p>
+                        </div>
+                    </div>
+                    <div class="block_country">
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/nueva-zelanda.jpg" alt="">
+                                        <p>NUEVA ZELANDA</p>
+                                    </div>
+                                    <p>Wellington Botanic Garden, Wellington</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p class="coordes">-41.282491,174.769132</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/nueva-zelanda.jpg" alt="">
+                                        <p>NUEVA ZELANDA</p>
+                                    </div>
+                                    <p>Auckland Town, Auckland</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p class="coordes">-36.843391,174.767093</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/nueva-zelanda.jpg" alt="">
+                                        <p>NUEVA ZELANDA</p>
+                                    </div>
+                                    <p>Christchurch Botanic Gardens, Christchurch</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p class="coordes">-43.530635,172.621909</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block_overlay">
+                    <div class="block_back">
+                        <h2 class="block_title">3. LUGAR (UTC +10)
+                            <img class="bandera" src="imagen/australia.jpg" alt="Australia"></h2>
+                        <div class="block_info">
+                            <div>
+                                <p class="block_time_title">Hora local de este lugar:<button class="button_view" data-index="2">Ver CC</button></p>
+                                <p class="block_time_local" id="time_local_3">Obteniendo datos...</p>
+                                <p class="block_time_title">Hora de inicio en tu ciudad:</p>
+                                <p class="block_time_local" id="time_local_our_3">Obteniendo datos...</p>
+                            </div>
+                            <p class="block_time" id="time_3">Obteniendo datos...</p>
+                        </div>
+                    </div>
+                    <div class="block_country">
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/australia.jpg" alt="">
+                                        <p>AUSTRALIA</p>
+                                    </div>
+                                    <p>Royal Botanic Gardens, Sidney</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>-33.863021,151.215353</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/australia.jpg" alt="">
+                                        <p>AUSTRALIA</p>
+                                    </div>
+                                    <p>Queen Victoria Gardens, Melbourne</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>-37.821492,144.971232</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block_overlay">
+                    <div class="block_back">
+                        <h2 class="block_title">4. LUGAR (UTC +09) 
+                            <img class="bandera" src="imagen/korea-del-sur.jpg" alt="Korea del Sur">
+                            <img class="bandera" src="imagen/japon.jpg" alt="Japon">
+                        </h2>
+                        <div class="block_info">
+                            <div>
+                                <p class="block_time_title">Hora local de este lugar:<button class="button_view" data-index="3">Ver CC</button></p>
+                                <p class="block_time_local" id="time_local_4">Obteniendo datos...</p>
+                                <p class="block_time_title">Hora de inicio en tu ciudad:</p>
+                                <p class="block_time_local" id="time_local_our_4">Obteniendo datos...</p>
+                            </div>
+                            <p class="block_time" id="time_4">Obteniendo datos...</p>
+                        </div>
+                    </div>
+                    <div class="block_country">
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/japon.jpg" alt="">
+                                        <p>JAPÓN</p>
+                                    </div>
+                                    <p>Tsuruma Park, Nagoya</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>35.155295,136.919780</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/japon.jpg" alt="">
+                                        <p>JAPÓN</p>
+                                    </div>
+                                    <p>Kita-ku, Osaka</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>34.702401,135.500202</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/japon.jpg" alt="">
+                                        <p>JAPÓN</p>
+                                    </div>
+                                    <p>Osaka Tennoji Zoo, Osaka</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>34.650107,135.510500</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/japon.jpg" alt="">
+                                        <p>JAPÓN</p>
+                                    </div>
+                                    <p>Shinjuku, Tokio</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>35.689201,139.697804</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/japon.jpg" alt="">
+                                        <p>JAPÓN</p>
+                                    </div>
+                                    <p>Kōtō, Tokio</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>35.696301,139.814405</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/japon.jpg" alt="">
+                                        <p>JAPÓN</p>
+                                    </div>
+                                    <p>Disneyland Tokyo, Tokio</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>35.631209,139.880933</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/japon.jpg" alt="">
+                                        <p>JAPÓN</p>
+                                    </div>
+                                    <p>Ueno Park, Tokio</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>35.715299,139.773401</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/japon.jpg" alt="">
+                                        <p>JAPÓN</p>
+                                    </div>
+                                    <p>Yamashita Park, Yokohama</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>35.444997,139.650437</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/korea-del-sur.jpg" alt="">
+                                        <p>COREA DEL SUR</p>
+                                    </div>
+                                    <p>Lotte World Mall, Seúl</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>37.512444,127.101460</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/korea-del-sur.jpg" alt="">
+                                        <p>COREA DEL SUR</p>
+                                    </div>
+                                    <p>Bujeon - Dong, Busan</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>35.155536,129.059131</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block_overlay">
+                    <div class="block_back">
+                        <h2 class="block_title">5. LUGAR (UTC +08)
+                            <img class="bandera" src="imagen/taiwan.jpg" alt="Taiwan">
+                            <img class="bandera" src="imagen/singapur.jpg" alt="Singapur">
+                            <img class="bandera" src="imagen/malasya.jpg" alt="Malasya">
+                            <img class="bandera" src="imagen/hong-kong.jpg" alt="Hong Kong"></h2>
+                        <div class="block_info">
+                            <div>
+                                <p class="block_time_title">Hora local de este lugar:<button class="button_view" data-index="4">Ver CC</button></p>
+                                <p class="block_time_local" id="time_local_5">Obteniendo datos...</p>
+                                <p class="block_time_title">Hora de inicio en tu ciudad:</p>
+                                <p class="block_time_local" id="time_local_our_5">Obteniendo datos...</p>
+                            </div>
+                            <p class="block_time" id="time_5">Obteniendo datos...</p>
+                        </div>
+                    </div>
+                    <div class="block_country">
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/taiwan.jpg" alt="">
+                                        <p>TAIWAN</p>
+                                    </div>
+                                    <p>Distrito de Wanhua, Taipei</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>25.042289,121.506751</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/taiwan.jpg" alt="">
+                                        <p>TAIWAN</p>
+                                    </div>
+                                    <p>Daan Forest Park, Taipei</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>25.027821,121.536376</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/singapur.jpg" alt="">
+                                        <p>SINGAPUR</p>
+                                    </div>
+                                    <p>Fort Canning Park, River Valley</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>1.292435,103.847606</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/singapur.jpg" alt="">
+                                        <p>SINGAPUR</p>
+                                    </div>
+                                    <p>Gardens by the Bay, Marina South</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>1.282431,103.863951</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/hong-kong.jpg" alt="">
+                                        <p>HONG KONG</p>
+                                    </div>
+                                    <p>Hong Kong Park Conservatory, Central</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>22.277733,114.162073</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/malasya.jpg" alt="">
+                                        <p>MALASYA</p>
+                                    </div>
+                                    <p>Bangsar, Kuala Lumpur</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>3.131001,101.671742</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block_overlay">
+                    <div class="block_back">
+                        <h2 class="block_title">6. LUGAR (UTC +07)
+                            <img class="bandera" src="imagen/tailandia.jpg" alt="Tailandia">
+                            <img class="bandera" src="imagen/indonesia.jpg" alt="Indonesia">
+                            <img class="bandera" src="imagen/vietnam.jpg" alt="Vietnam">
+                        </h2>
+                        <div class="block_info">
+                            <div>
+                                <p class="block_time_title">Hora local de este lugar:<button class="button_view" data-index="5">Ver CC</button></p>
+                                <p class="block_time_local" id="time_local_6">Obteniendo datos...</p>
+                                <p class="block_time_title">Hora de inicio en tu ciudad:</p>
+                                <p class="block_time_local" id="time_local_our_6">Obteniendo datos...</p>
+                            </div>
+                            <p class="block_time" id="time_6">Obteniendo datos...</p>
+                        </div>
+                    </div>
+                    <div class="block_country">
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/tailandia.jpg" alt="">
+                                        <p>TAILANDIA</p>
+                                    </div>
+                                    <p>Khlong San, Bangkok</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>13.733654,100.497024</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/indonesia.jpg" alt="">
+                                        <p>INDONESIA</p>
+                                    </div>
+                                    <p>Yakarta Central, Yakarta</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>-6.175362,106.827153</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/vietnam.jpg" alt="">
+                                        <p>VIETNAM</p>
+                                    </div>
+                                    <p>Bến Thành, Ho Chi Minh</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>10.774515,106.693884</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block_overlay">
+                    <div class="block_back">
+                        <h2 class="block_title">7. LUGAR (UTC +05:30)
+                            <img class="bandera" src="imagen/india.jpg" alt="India">
+                            <img class="bandera" src="imagen/sri-lanka.jpg" alt="Sri Lanka">
+                        </h2>
+                        <div class="block_info">
+                            <div>
+                                <p class="block_time_title">Hora local de este lugar:<button class="button_view" data-index="6">Ver CC</button></p>
+                                <p class="block_time_local" id="time_local_7">Obteniendo datos...</p>
+                                <p class="block_time_title">Hora de inicio en tu ciudad:</p>
+                                <p class="block_time_local" id="time_local_our_7">Obteniendo datos...</p>
+                            </div>
+                            <p class="block_time" id="time_7">Obteniendo datos...</p>
+                        </div>
+                    </div>
+                    <div class="block_country">
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/india.jpg" alt="">
+                                        <p>INDIA</p>
+                                    </div>
+                                    <p>Lodhi Garden, Nueva Delhi</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>28.593711,77.220227</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/india.jpg" alt="">
+                                        <p>INDIA</p>
+                                    </div>
+                                    <p>Kala Ghoda, Mumbai</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>18.926681,72.832133</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/india.jpg" alt="">
+                                        <p>INDIA</p>
+                                    </div>
+                                    <p>Lalbagh Botanical Garden, Bangalore</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>12.949841,77.586501</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/sri-lanka.jpg" alt="">
+                                        <p>SRI LANKA</p>
+                                    </div>
+                                    <p>Viharamahadevi Park, Colombo</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>6.912925,79.861252</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block_overlay">
+                    <div class="block_back">
+                        <h2 class="block_title">8. LUGAR (UTC +04)
+                            <img class="bandera" src="imagen/emiratos-arabes-unidos.jpg" alt="emiratos Arabes Unidos">
+                        </h2>
+                        <div class="block_info">
+                            <div>
+                                <p class="block_time_title">Hora local de este lugar:<button class="button_view" data-index="7">Ver CC</button></p>
+                                <p class="block_time_local" id="time_local_8">Obteniendo datos...</p>
+                                <p class="block_time_title">Hora de inicio en tu ciudad:</p>
+                                <p class="block_time_local" id="time_local_our_8">Obteniendo datos...</p>
+                            </div>
+                            <p class="block_time" id="time_8">Obteniendo datos...</p>
+                        </div>
+                    </div>
+                    <div class="block_country">
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/emiratos-arabes-unidos.jpg" alt="">
+                                        <p>EMIRATOS ARABES UNIDOS</p>
+                                    </div>
+                                    <p>Marina de Dubái, Dubái</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>25.077497,55.133673</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block_overlay">
+                    <div class="block_back">
+                        <h2 class="block_title">9. LUGAR (UTC +03)
+                            <img class="bandera" src="imagen/turquia.jpg" alt="Turquia">
+                            <img class="bandera" src="imagen/rusia.jpg" alt="Rusia">
+                            <img class="bandera" src="imagen/grecia.jpg" alt="Grecia">
+                        </h2>
+                        <div class="block_info">
+                            <div>
+                                <p class="block_time_title">Hora local de este lugar:<button class="button_view" data-index="8">Ver CC</button></p>
+                                <p class="block_time_local" id="time_local_9">Obteniendo datos...</p>
+                                <p class="block_time_title">Hora de inicio en tu ciudad:</p>
+                                <p class="block_time_local" id="time_local_our_9">Obteniendo datos...</p>
+                            </div>
+                            <p class="block_time" id="time_9">Obteniendo datos...</p>
+                        </div>
+                    </div>
+                    <div class="block_country">
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/turquia.jpg" alt="">
+                                        <p>TURQUÍA</p>
+                                    </div>
+                                    <p>Kültürpark İzmir, Esmirna</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>38.427560,27.145376</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/turquia.jpg" alt="">
+                                        <p>TURQUÍA</p>
+                                    </div>
+                                    <p>Büyükpark, Esmirna</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>38.462685,27.216880</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/rusia.jpg" alt="">
+                                        <p>RUSIA</p>
+                                    </div>
+                                    <p>Kitay-Gorod, Moscú</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>55.752945,37.613809</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/grecia.jpg" alt="">
+                                        <p>GRECIA</p>
+                                    </div>
+                                    <p>Jardín Nacional de Atenas, Athenas</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>37.97266,23.73727</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/grecia.jpg" alt="">
+                                        <p>GRECIA</p>
+                                    </div>
+                                    <p>YMCA Park, Salónica</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>40.626361,22.952033</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block_overlay">
+                    <div class="block_back">
+                        <h2 class="block_title">10. LUGAR (UTC +02)
+                            <img class="bandera" src="imagen/hungria.jpg" alt="Hungria">
+                            <img class="bandera" src="imagen/españa.jpg" alt="España">
+                            <img class="bandera" src="imagen/francia.jpg" alt="Francia">
+                            <img class="bandera" src="imagen/italia.jpg" alt="Italia">
+                        </h2>
+                        <div class="block_info">
+                            <div>
+                                <p class="block_time_title">Hora local de este lugar:<button class="button_view" data-index="9">Ver CC</button></p>
+                                <p class="block_time_local" id="time_local_10">Obteniendo datos...</p>
+                                <p class="block_time_title">Hora de inicio en tu ciudad:</p>
+                                <p class="block_time_local" id="time_local_our_10">Obteniendo datos...</p>
+                            </div>
+                            <p class="block_time" id="time_10">Obteniendo datos...</p>
+                        </div>
+                    </div>
+                    <div class="block_country">
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/hungria.jpg" alt="">
+                                        <p>HUNGRÍA</p>
+                                    </div>
+                                    <p>Margaret Island, Budapest</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>47.529875,19.051542</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/españa.jpg" alt="">
+                                        <p>ESPAÑA</p>
+                                    </div>
+                                    <p>Parque de María Luisa, Sevilla</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>37.377148,-5.987055</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/españa.jpg" alt="">
+                                        <p>ESPAÑA</p>
+                                    </div>
+                                    <p>Parque de la Química, Zaragoza</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>41.661545,-0.894701</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/españa.jpg" alt="">
+                                        <p>ESPAÑA</p>
+                                    </div>
+                                    <p>Parque de El Retiro, Madrid</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>40.417543,-3.682446</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/españa.jpg" alt="">
+                                        <p>ESPAÑA</p>
+                                    </div>
+                                    <p>Parque de la Ciudadela, Barcelona</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>41.388245,2.186891</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/francia.jpg" alt="">
+                                        <p>FRANCIA</p>
+                                    </div>
+                                    <p>Westfield Les 4 Temps, Puteaux</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>48.892036,2.237655</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/italia.jpg" alt="">
+                                        <p>ITALIA</p>
+                                    </div>
+                                    <p>San Giovanni, Florencia</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>43.769561,11.255811</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/italia.jpg" alt="">
+                                        <p>ITALIA</p>
+                                    </div>
+                                    <p>Cannaregio, Venecia</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>45.439321,12.339091</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/italia.jpg" alt="">
+                                        <p>ITALIA</p>
+                                    </div>
+                                    <p>Santa Croce, Venecia</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>45.440161,12.326911</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block_overlay">
+                    <div class="block_back">
+                        <h2 class="block_title">11. LUGAR (UTC +01)
+                            <img class="bandera" src="imagen/gran-bretaña.jpg" alt="Gran Bretaña">
+                            <img class="bandera" src="imagen/irlanda.jpg" alt="Irlanda">
+                            <img class="bandera" src="imagen/islandia.jpg" alt="Islandia">
+                            <img class="bandera" src="imagen/gran-canaria.jpg" alt="Islas Canarias">
+                        </h2>
+                        <div class="block_info">
+                            <div>
+                                <p class="block_time_title">Hora local de este lugar:<button class="button_view" data-index="10">Ver CC</button></p>
+                                <p class="block_time_local" id="time_local_11">Obteniendo datos...</p>
+                                <p class="block_time_title">Hora de inicio en tu ciudad:</p>
+                                <p class="block_time_local" id="time_local_our_11">Obteniendo datos...</p>
+                            </div>
+                            <p class="block_time" id="time_11">Obteniendo datos...</p>
+                        </div>
+                    </div>
+                    <div class="block_country">
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/gran-bretaña.jpg" alt="">
+                                        <p>GRAN BRETAÑA</p>
+                                    </div>
+                                    <p>St. James's Park, Londres</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>51.501222,-0.139702</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/portugal.jpg" alt="">
+                                        <p>PORTUGAL</p>
+                                    </div>
+                                    <p>Jardín del Príncipe Real, Lisboa</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>38.716183,-9.148742</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/irlanda.jpg" alt="">
+                                        <p>IRLANDA</p>
+                                    </div>
+                                    <p>Saint Stephen's Green, Dublin</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>53.33779,-6.259001</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/islandia.jpg" alt="">
+                                        <p>ISLANDIA</p>
+                                    </div>
+                                    <p>Miðborg, Reikiavik</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>64.12769,-21.94198</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/gran-canaria.jpg" alt="">
+                                        <p>GRAN CANARIA</p>
+                                    </div>
+                                    <p>Plaza de la Música, Las Palmas</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>28.128783,-15.451647</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/gran-canaria.jpg" alt="">
+                                        <p>GRAN CANARIA</p>
+                                    </div>
+                                    <p>Parque del Estadio Insular, Las Palmas</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>28.128741,-15.433331</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/gran-canaria.jpg" alt="">
+                                        <p>GRAN CANARIA</p>
+                                    </div>
+                                    <p>San Cristóbal de La Laguna, Santa Cruz de Tenerife</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>28.489334,-16.317490</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block_overlay">
+                    <div class="block_back">
+                        <h2 class="block_title">12. LUGAR (UTC +00)
+                            <img class="bandera" src="imagen/portugal.jpg" alt="Portugal">
+                        </h2>
+                        <div class="block_info">
+                            <div>
+                                <p class="block_time_title">Hora local de este lugar:<button class="button_view" data-index="11">Ver CC</button></p>
+                                <p class="block_time_local" id="time_local_12">Obteniendo datos...</p>
+                                <p class="block_time_title">Hora de inicio en tu ciudad:</p>
+                                <p class="block_time_local" id="time_local_our_12">Obteniendo datos...</p>
+                            </div>
+                            <p class="block_time" id="time_12">Obteniendo datos...</p>
+                        </div>
+                    </div>
+                    <div class="block_country">
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/portugal.jpg" alt="">
+                                        <p>PORTUGAL</p>
+                                    </div>
+                                    <p>Distrito de Ponta Delgada, Azores</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>37.741546,-25.668131</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+                <div class="block_overlay">
+                    <div class="block_back">
+                        <h2 class="block_title">13. LUGAR (UTC -02)
+                            <img class="bandera" src="imagen/groelandia.jpg" alt="Groenlandia">
+                        </h2>
+                        <div class="block_info">
+                            <div>
+                                <p class="block_time_title">Hora local de este lugar:<button class="button_view" data-index="12">Ver CC</button></p>
+                                <p class="block_time_local" id="time_local_13">Obteniendo datos...</p>
+                                <p class="block_time_title">Hora de inicio en tu ciudad:</p>
+                                <p class="block_time_local" id="time_local_our_13">Obteniendo datos...</p>
+                            </div>
+                            <p class="block_time" id="time_13">Obteniendo datos...</p>
+                        </div>
+                    </div>
+                    <div class="block_country">
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/groelandia.jpg" alt="">
+                                        <p>GROENLANDIA</p>
+                                    </div>
+                                    <p>Tuujuk, Nuuk</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>64.17419,-51.738516</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>             
+                <div class="block_overlay">
+                    <div class="block_back">
+                        <h2 class="block_title">14. LUGAR (UTC -02:30)
+                            <img class="bandera" src="imagen/canada.jpg" alt="Canadá">
+                        </h2>
+                        <div class="block_info">
+                            <div>
+                                <p class="block_time_title">Hora local de este lugar:<button class="button_view" data-index="13">Ver CC</button></p>
+                                <p class="block_time_local" id="time_local_14">Obteniendo datos...</p>
+                                <p class="block_time_title">Hora de inicio en tu ciudad:</p>
+                                <p class="block_time_local" id="time_local_our_14">Obteniendo datos...</p>
+                            </div>
+                            <p class="block_time" id="time_14">Obteniendo datos...</p>
+                        </div>
+                    </div>
+                    <div class="block_country">
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/canada.jpg" alt="Canadá">
+                                        <p>CANADÁ</p>
+                                    </div>
+                                    <p>Downtown, Terranova y Labrador</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>47.564991,-52.707432</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block_overlay">
+                    <div class="block_back">
+                        <h2 class="block_title">15. LUGAR (UTC -03)
+                            <img class="bandera" src="imagen/brasil.jpg" alt="Brasil">
+                            <img class="bandera" src="imagen/argentina.jpg" alt="Argentina">
+                            <img class="bandera" src="imagen/canada.jpg" alt="Canadá">
+                            <img class="bandera" src="imagen/chile.jpg" alt="Chile">
+                        </h2>
+                        <div class="block_info">
+                            <div>
+                                <p class="block_time_title">Hora local de este lugar:<button class="button_view" data-index="14">Ver CC</button></p>
+                                <p class="block_time_local" id="time_local_15">Obteniendo datos...</p>
+                                <p class="block_time_title">Hora de inicio en tu ciudad:</p>
+                                <p class="block_time_local" id="time_local_our_15">Obteniendo datos...</p>
+                            </div>
+                            <p class="block_time" id="time_15">Obteniendo datos...</p>
+                        </div>
+                    </div>
+                    <div class="block_country">
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/brasil.jpg" alt="">
+                                        <p>BRASIL</p>
+                                    </div>
+                                    <p>Cementerio de Consuelo, Sao Paulo</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>-23.550162,-46.655413</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/brasil.jpg" alt="">
+                                        <p>BRASIL</p>
+                                    </div>
+                                    <p>Parque Ibirapuera, Sao Paulo</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>-23.584692,-46.660719</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/argentina.jpg" alt="">
+                                        <p>ARGENTINA</p>
+                                    </div>
+                                    <p>Parque Rivadavia, Buenos Aires</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>-34.617777,-58.432851</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/argentina.jpg" alt="">
+                                        <p>ARGENTINA</p>
+                                    </div>
+                                    <p>Plaza de las Armas Ejército Argentino, Buenos Aires</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>-34.610111,-58.368732</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/groelandia.jpg" alt="">
+                                        <p>GROENLANDIA</p>
+                                    </div>
+                                    <p>Tuujuk, Nuuk</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>64.17419,-51.738516</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/canada.jpg" alt="Canadá">
+                                        <p>CANADÁ</p>
+                                    </div>
+                                    <p>Halifax, Nueva Escocia</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>44.642443,-63.58016</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/chile.jpg" alt="">
+                                        <p>CHILE</p>
+                                    </div>
+                                    <p>Plaza de Armas, Punta Arenas</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>-53.163831,-70.899061</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block_overlay">
+                    <div class="block_back">
+                        <h2 class="block_title">16. LUGAR (UTC -04)
+                            <img class="bandera" src="imagen/usa.jpg" alt="USA">
+                            <img class="bandera" src="imagen/canada.jpg" alt="Canada">
+                            <img class="bandera" src="imagen/republica_dominicana.jpg" alt="Republica Dominicana">
+                            <img class="bandera" src="imagen/chile.jpg" alt="Chile">
+                        </h2>
+                        <div class="block_info">
+                            <div>
+                                <p class="block_time_title">Hora local de este lugar:<button class="button_view" data-index="15">Ver CC</button></p>
+                                <p class="block_time_local" id="time_local_16">Obteniendo datos...</p>
+                                <p class="block_time_title">Hora de inicio en tu ciudad:</p>
+                                <p class="block_time_local" id="time_local_our_16">Obteniendo datos...</p>
+                            </div>
+                            <p class="block_time" id="time_16">Obteniendo datos...</p>
+                        </div>
+                    </div>
+                    <div class="block_country">
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/usa.jpg" alt="">
+                                        <p>ESTADOS UNIDOS</p>
+                                    </div>
+                                    <p>Central Park, Nueva York</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>40.765723,-73.973038</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/usa.jpg" alt="">
+                                        <p>ESTADOS UNIDOS</p>
+                                    </div>
+                                    <p>Bryant Park, Nueva York</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>40.753869,-73.983796</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/usa.jpg" alt="">
+                                        <p>ESTADOS UNIDOS</p>
+                                    </div>
+                                    <p>Northwest Washington, Washington DC</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>38.890812,-77.030033</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/usa.jpg" alt="">
+                                        <p>ESTADOS UNIDOS</p>
+                                    </div>
+                                    <p>Bay Lake, Orlando</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>28.371825,-81.549335</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/usa.jpg" alt="">
+                                        <p>ESTADOS UNIDOS</p>
+                                    </div>
+                                    <p>Parque Olímpico del Centenario, Atlanta</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>33.760393,-84.393414</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/usa.jpg" alt="">
+                                        <p>ESTADOS UNIDOS</p>
+                                    </div>
+                                    <p>Campus Martius Park, Detroit</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>42.331691,-83.046502</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/usa.jpg" alt="">
+                                        <p>ESTADOS UNIDOS</p>
+                                    </div>
+                                    <p>Campus Martius Park, Detroit</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>42.331691,-83.046502</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/canada.jpg" alt="">
+                                        <p>CANADÁ</p>
+                                    </div>
+                                    <p>High Park, Toronto</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>43.649552,-79.465872</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/canada.jpg" alt="">
+                                        <p>CANADÁ</p>
+                                    </div>
+                                    <p>Golden Triangle, Ottawa</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>45.420927,-75.690556</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/canada.jpg" alt="">
+                                        <p>CANADÁ</p>
+                                    </div>
+                                    <p>Ville-Marie, Monteal</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>45.502794,-73.554270</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/republica_dominicana.jpg" alt="República Dominicana">
+                                        <p>REPÚBLICA DOMINICANA</p>
+                                    </div>
+                                    <p>Centro Olimpico, Santo Domingo</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>18.476709,-69.915483</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/chile.jpg" alt="">
+                                        <p>CHILE</p>
+                                    </div>
+                                    <p>Parque Forestal, Santiago de Chile</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>-33.435701,-70.640991</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>               
+                <div class="block_overlay">
+                    <div class="block_back">
+                        <h2 class="block_title">17. LUGAR (UTC -05)
+                            <img class="bandera" src="imagen/usa.jpg" alt="USA">
+                            <img class="bandera" src="imagen/canada.jpg" alt="Canada">
+                            <img class="bandera" src="imagen/peru.jpg" alt="Peru">
+                            <img class="bandera" src="imagen/ecuador.jpg" alt="Ecuador">
+                            <img class="bandera" src="imagen/mexico.jpg" alt="Mexico">
+                        </h2>
+                        <div class="block_info">
+                            <div>
+                                <p class="block_time_title">Hora local de este lugar:<button class="button_view" data-index="16">Ver CC</button></p>
+                                <p class="block_time_local" id="time_local_17">Obteniendo datos...</p>
+                                <p class="block_time_title">Hora de inicio en tu ciudad:</p>
+                                <p class="block_time_local" id="time_local_our_17">Obteniendo datos...</p>
+                            </div>
+                            <p class="block_time" id="time_17">Obteniendo datos...</p>
+                        </div>
+                    </div>
+                    <div class="block_country">
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/usa.jpg" alt="">
+                                        <p>ESTADOS UNIDOS</p>
+                                    </div>
+                                    <p>Muelle de la Armada, Chicago</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>41.891882,-87.598955</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/usa.jpg" alt="">
+                                        <p>ESTADOS UNIDOS</p>
+                                    </div>
+                                    <p>Chickasaw Bricktown Ballpark, Oklahoma</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>35.465201,-97.507469</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/usa.jpg" alt="">
+                                        <p>ESTADOS UNIDOS</p>
+                                    </div>
+                                    <p>Dallas Downtown Historic District, Dallas</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>32.776721,-96.799042</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/canada.jpg" alt="">
+                                        <p>CANADÁ</p>
+                                    </div>
+                                    <p>Downtown, Winnipeg</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>49.887753,-97.129913</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/peru.jpg" alt="">
+                                        <p>PERÚ</p>
+                                    </div>
+                                    <p>Parque de la Exposición, Lima</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>-12.062746,-77.036275</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/peru.jpg" alt="">
+                                        <p>PERÚ</p>
+                                    </div>
+                                    <p>C.C Mega Plaza, Independencia</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>-11.994232,-77.063427</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/peru.jpg" alt="">
+                                        <p>PERÚ</p>
+                                    </div>
+                                    <p>Plaza de Armas de Chancay, Chancay</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>-11.563121,-77.270121</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/ecuador.jpg" alt="">
+                                        <p>ECUADOR</p>
+                                    </div>
+                                    <p>Parque Samanes, Guayaquil</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>-2.103466,-79.907960</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/ecuador.jpg" alt="">
+                                        <p>ECUADOR</p>
+                                    </div>
+                                    <p>Jardín Botánico de Quito, Quito</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>-0.185014,-78.485145</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/mexico.jpg" alt="">
+                                        <p>MÉXICO</p>
+                                    </div>
+                                    <p>Alameda Central, Ciudad de México</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>19.435731,-99.143961</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block_overlay">
+                    <div class="block_back">
+                        <h2 class="block_title">18. LUGAR (UTC -06)
+                            <img class="bandera" src="imagen/canada.jpg" alt="Canada">
+                        </h2>
+                        <div class="block_info">
+                            <div>
+                                <p class="block_time_title">Hora local de este lugar:<button class="button_view" data-index="17">Ver CC</button></p>
+                                <p class="block_time_local" id="time_local_18">Obteniendo datos...</p>
+                                <p class="block_time_title">Hora de inicio en tu ciudad:</p>
+                                <p class="block_time_local" id="time_local_our_18">Obteniendo datos...</p>
+                            </div>
+                            <p class="block_time" id="time_18">Obteniendo datos...</p>
+                        </div>
+                    </div>
+                    <div class="block_country">
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/canada.jpg" alt="">
+                                        <p>CANADÁ</p>
+                                    </div>
+                                    <p>Victoria Park, Regina</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>50.447895,-104.612321</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>               
+                <div class="block_overlay">
+                    <div class="block_back">
+                        <h2 class="block_title">19. LUGAR (UTC -07)
+                            <img class="bandera" src="imagen/usa.jpg" alt="USA">
+                            <img class="bandera" src="imagen/canada.jpg" alt="Canada">
+                        </h2>
+                        <div class="block_info">
+                            <div>
+                                <p class="block_time_title">Hora local de este lugar:<button class="button_view" data-index="18">Ver CC</button></p>
+                                <p class="block_time_local" id="time_local_19">Obteniendo datos...</p>
+                                <p class="block_time_title">Hora de inicio en tu ciudad:</p>
+                                <p class="block_time_local" id="time_local_our_19">Obteniendo datos...</p>
+                            </div>
+                            <p class="block_time" id="time_19">Obteniendo datos...</p>
+                        </div>
+                    </div>
+                    <div class="block_country">
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/usa.jpg" alt="">
+                                        <p>ESTADOS UNIDOS</p>
+                                    </div>
+                                    <p>Pier39, San Francisco</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>37.808971,-122.410242</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/usa.jpg" alt="">
+                                        <p>ESTADOS UNIDOS</p>
+                                    </div>
+                                    <p>Santa Monica Pier, Santa Monica</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>34.010113,-118.495742</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/usa.jpg" alt="">
+                                        <p>ESTADOS UNIDOS</p>
+                                    </div>
+                                    <p>Paradise, Las Vegas</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>36.115972,-115.174323</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/usa.jpg" alt="">
+                                        <p>ESTADOS UNIDOS</p>
+                                    </div>
+                                    <p>Waterfront, Long Beach</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>33.761667,-118.197294</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/usa.jpg" alt="">
+                                        <p>ESTADOS UNIDOS</p>
+                                    </div>
+                                    <p>T-Mobile Park, Seattle</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>47.591324,-122.333023</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/canada.jpg" alt="">
+                                        <p>CANADÁ</p>
+                                    </div>
+                                    <p>Queen Elizabeth Park, Vancouver</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>49.240966,-123.112591</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                <div class="block_overlay">
+                    <div class="block_back">
+                        <h2 class="block_title">20. LUGAR (UTC -08)
+                            <img class="bandera" src="imagen/usa.jpg" alt="USA">
+                        </h2>
+                        <div class="block_info">
+                            <div>
+                                <p class="block_time_title">Hora local de este lugar:<button class="button_view" data-index="19">Ver CC</button></p>
+                                <p class="block_time_local" id="time_local_20">Obteniendo datos...</p>
+                                <p class="block_time_title">Hora de inicio en tu ciudad:</p>
+                                <p class="block_time_local" id="time_local_our_20">Obteniendo datos...</p>
+                            </div>
+                            <p class="block_time" id="time_20">Obteniendo datos...</p>
+                        </div>
+                    </div>
+                    <div class="block_country">
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/usa.jpg" alt="">
+                                        <p>ESTADOS UNIDOS</p>
+                                    </div>
+                                    <p>Downtown, Anchorage</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>61.216691,-149.892453</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block_overlay">
+                    <div class="block_back">
+                        <h2 class="block_title">21. LUGAR (UTC -10)
+                            <img class="bandera" src="imagen/usa.jpg" alt="USA">
+                            <img class="bandera" src="imagen/tahiti.jpg" alt="Tahiti">
+                            <img class="bandera" src="imagen/islas-cook.jpg" alt="Islas Cook">
+                        </h2>
+                        <div class="block_info">
+                            <div>
+                                <p class="block_time_title">Hora local de este lugar:<button class="button_view" data-index="20">Ver CC</button></p>
+                                <p class="block_time_local" id="time_local_21">Obteniendo datos...</p>
+                                <p class="block_time_title">Hora de inicio en tu ciudad:</p>
+                                <p class="block_time_local" id="time_local_our_21">Obteniendo datos...</p>
+                            </div>
+                            <p class="block_time" id="time_21">Obteniendo datos...</p>
+                        </div>
+                    </div>
+                    <div class="block_country">
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/usa.jpg" alt="">
+                                        <p>ESTADOS UNIDOS</p>
+                                    </div>
+                                    <p>Honolulu, Hawái</p>
+                                    <p class="rating">Recomendado</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>21.2911012,-157.84311</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/tahiti.jpg" alt="">
+                                        <p>POLINESIA FRANCESA</p>
+                                    </div>
+                                    <p>Papeete, Tahití</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>-17.540164,-149.567215</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/islas-cook.jpg" alt="">
+                                        <p>ISLAS COOK</p>
+                                    </div>
+                                    <p>Avarua, Rarotonga</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>-21.208002,-159.772213</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block_overlay">
+                    <div class="block_back">
+                        <h2 class="block_title">22. LUGAR (UTC -11)
+                            <img class="bandera" src="imagen/usa.jpg" alt="USA">
+                            <img class="bandera" src="imagen/samoa-americana.jpg" alt="Samoa Americana">
+                        </h2>
+                        <div class="block_info">
+                            <div>
+                                <p class="block_time_title">Hora local de este lugar:<button class="button_view" data-index="21">Ver CC</button></p>
+                                <p class="block_time_local" id="time_local_22">Obteniendo datos...</p>
+                                <p class="block_time_title">Hora de inicio en tu ciudad:</p>
+                                <p class="block_time_local" id="time_local_our_22">Obteniendo datos...</p>
+                            </div>
+                            <p class="block_time" id="time_22">Obteniendo datos...</p>
+                        </div>
+                    </div>
+                    <div class="block_country">
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/usa.jpg" alt="">
+                                        <p>ESTADOS UNIDOS</p>
+                                    </div>
+                                    <p>Sand Island, Isla Midway</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>28.210822,-177.375892</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <div class="country_img">
+                                <img src="imagen/vervideo.jpg" alt="">
+                            </div>
+                            <div class="country_inf">
+                                <div class="country_flag">
+                                    <div class="country_name">
+                                        <img src="imagen/samoa-americana.jpg" alt="">
+                                        <p>SAMOA AMERICANA</p>
+                                    </div>
+                                    <p>Fagatogo</p>
+                                </div>
+                                <div class="country_coords">
+                                    <p>-14.277941,-170.688202</p>
+                                    <button class="button">Copiar</button>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <!--<div class="information">
+                <div class="information_item">
+                    <h2 class="information_title"><span>CARACTERÍSTICAS</span></h2>
+                    <div class="information_list">
+                        <ul>
+                            <li class="information_list_item">Habrá más incursiones de cuatro estrellas durante las 3 horas que dure el evento.</li>
+                            <li class="information_list_item">Lickitung conocerá el movimiento exclusivo Golpe Cuerpo.</li>
+                            <li class="information_list_item">Podrás recibir hasta cinco pases de incursión adicionales sin coste alguno durante el evento al girar fotodiscos en los Gimnasios.</li>
+                            <li class="information_list_item">No podrás tener más de uno de estos pases de incursión a la vez, tendras que gastarlo para conseguir otro y y dejarán de estar disponibles al terminar el evento..</li>
+                            <li class="information_list_item">¡Los Entrenadores más suertudos se encontrarán con un Lickitung variocolor!</li>
+                        </ul>
+                        <img src="imagen/hora_legendaria_ticket.jpg" alt="Pase Premiun - Gratis">
+                    </div>
+                </div>
+                <div class="information_item">
+                    <h2 class="information_title"><span>INFOGRAFÍA DE ONIX</span></h2>
+                    <img style="display: block;width:100%;" src="imagen/infografia_pokemon_destacado_onix.jpg" alt="Infografia Onix">
+                </div>
+            </div>-->
+        </main>
+        <footer class="footer">
+            <p class="footer_info">¿Quieres coordenadas 100IV y más?, entonces únete a Comunidad Fly Oficial:</p>
+            <a href="https://discord.gg/ZEuPKNS" class="footer_discord-logo" target="_blank"><img src="imagen/discord_logo.png" alt="Discord"></a>
+            <p class="footer_info">No te pierdas ningún video de DjKire, sobre el mundo de Pókemon GO:</p>
+            <div class="footer_social">
+                <a href="https://www.youtube.com/channel/UCfSjGKwQuacobaZWUUKAsYw" class="footer_sociallogo" target="_blank"><img src="imagen/logo_youtube.png" alt="Youtube"></a>
+                <a href="https://www.facebook.com/DjkireYoutube/" class="footer_sociallogo" target="_blank"><img src="imagen/logo_facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/djkireyoutube/" class="footer_sociallogo" target="_blank"><img src="imagen/logo_instagram.png" alt="Instagram"></a>
+                <a href="https://twitter.com/DjkireYoutube" class="footer_sociallogo" target="_blank"><img src="imagen/logo_twitter.png" alt="Twitter"></a>
+            </div>
+            <p class="footer_creator">Desarrollado por: Ro Bert/JessicaNLover</p>
+        </footer>
+    </div>
+    <script src="script/pokemonpidgey.js"></script>
+</body>
+</html>
